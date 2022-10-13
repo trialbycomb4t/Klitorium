@@ -1,14 +1,43 @@
-body {
+/*************************TAG SELECTORS*****************************/
 
-    background-color: rgb(199, 197, 197);
+
+
+body {
+ background-color: rgb(199, 197, 197);
+
 }
+
+/* 
 
 h1 {
     color: aliceblue;
 }
 
+*/
+/************************CLASS SELECTORS****************************/
 p {
     
     color: rgb(187, 87, 174);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.okan  { background-color:  none;
+    }
+
+.circular {
+
+
+border-radius: 100%;
+ 
+}
+
+img:hover {
+
+    background-color: gold;  
+}
+
+.circular:hover {
+
+    background-color: gold;    
+}
+
